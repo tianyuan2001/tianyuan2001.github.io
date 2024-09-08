@@ -31,7 +31,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🎖 Honors and Awards
 
 - *2023.6* I was selected as **Excellent Graduate of Beijing**.
-- *2023.12* I received of **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
+- *2023.12* I received the **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
 
 # 🔥 News
 
