@@ -45,6 +45,7 @@ Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:YsMSGLbcyi4C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:YsMSGLbcyi4C'></span></strong>
 </div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -54,6 +55,7 @@ Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
 Lu Wang, **Tianyuan Zhang**, Yikai Han, Muyang Fang, Ting Jin, Jiaqi Kang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:eQOLeE2rZwMC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:eQOLeE2rZwMC'></span></strong>
+</div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
@@ -65,6 +67,7 @@ Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:WF5omc3nYNoC'></span></strong>
 </div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-lanevil.png' alt="sym" width="100%"></div></div
 ><div class='paper-box-text' markdown="1">
@@ -74,6 +77,7 @@ Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 **Tianyuan Zhang**, Lu Wang, Hainan Li, Yisong Xiao, Siyuan Liang, Aishan Liu✉️, Xianglong Liu, Dacheng Tao
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:ufrVoPGSRksC'></span></strong>
+</div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
