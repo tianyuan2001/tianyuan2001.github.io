@@ -25,6 +25,7 @@ My research interest includes autonomous driving safety and adversarial attack. 
 
 - _2024.08_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
 - _2024.07_: &nbsp;🎉🎉 Two papers accepted by ACM Multimedia 2024 (One first-authored).
+- _2024.04_: &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
 
 # 📝 Publications
 
@@ -56,6 +57,27 @@ Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:WF5omc3nYNoC'></span></strong>
 
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.jpg' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
+
+[Attack End-to-End Autonomous Driving through Module-Wise Noise](https://cvpr24-advml.github.io/short_paper/8.pdf)
+
+Lu Wang, **Tianyuan Zhang**, Yikai Han, Muyang Fang, Ting Jin, Jiaqi Kang
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:eQOLeE2rZwMC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:eQOLeE2rZwMC'></span></strong>
+
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.jpg' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
+
+[Enhancing the Transferability of Adversarial Attacks with Stealth Preservation](https://openaccess.thecvf.com/content/CVPR2024W/AdvML/html/Zhang_Enhancing_the_Transferability_of_Adversarial_Attacks_with_Stealth_Preservation_CVPRW_2024_paper.html)
+
+Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:YsMSGLbcyi4C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:YsMSGLbcyi4C'></span></strong>
+
+</div>
 </div>
 
 <!-- # 🎖 Honors and Awards
