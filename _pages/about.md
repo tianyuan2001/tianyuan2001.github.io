@@ -46,7 +46,7 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:ufrVoPGSRksC'></span></strong>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
 
 </div>
 </div>
