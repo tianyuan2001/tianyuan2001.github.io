@@ -28,7 +28,7 @@ My research interest includes autonomous driving safety and adversarial attack. 
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.jpg' alt="sym" width="100%"></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div><div class='paper-box-text' markdown="1">
 
 [RobustE2E: Exploring the Robustness of End-to-End Autonomous Driving](https://www.mdpi.com/2079-9292/13/16/3299)
 
@@ -36,14 +36,14 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:UebtZRa9Y70C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:UebtZRa9Y70C'></span></strong>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-lanevil.jpg' alt="sym" width="100%"></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-lanevil.png' alt="sym" width="100%"></div></div><div class='paper-box-text' markdown="1">
 [LanEvil: Benchmarking the Robustness of Lane Detection to Environmental Illusions](https://arxiv.org/abs/2406.00934)
 
 **Tianyuan Zhang**, Lu Wang, Hainan Li, Yisong Xiao, Siyuan Liang, Aishan Liu✉️, Xianglong Liu, Dacheng Tao
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:ufrVoPGSRksC'></span></strong>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.jpg' alt="sym" width="100%"></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div><div class='paper-box-text' markdown="1">
 
 [Towards Robust Physical-world Backdoor Attacks on Lane Detection](https://arxiv.org/abs/2405.05553)
 
