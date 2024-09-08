@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Tianyuan Zhang is a PhD student at State Key Laboratory of Software Development Environment at the Beihang University(BUAA), advised by Prof. Xianglong Liu. I also work closely with Prof. Aishan Liu.
+Tianyuan Zhang is a PhD student at State Key Laboratory of Software Development Environment at the Beihang University(BUAA), supervised by Prof. <a href='https://xlliu-beihang.github.io/'>Xianglong Liu</a> and Prof. <a href='https://liuaishan.github.io/index.html'>Aishan Liu</a>.
 
-My research interest includes autonomous driving safety and adversarial attack. I have published more than 10 papers at the top international AI conferences with total<a href='https://scholar.google.com/citations?user=w0mmwl4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interest includes autonomous driving safety and adversarial attack.
+
+ <!-- I have published more than 10 papers at the top international AI conferences with total<a href='https://scholar.google.com/citations?user=w0mmwl4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 # 🔥 News
 
@@ -28,8 +30,7 @@ My research interest includes autonomous driving safety and adversarial attack. 
 - _2024.04_: &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
 
 # 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.jpg' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.png' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
 
 [Enhancing the Transferability of Adversarial Attacks with Stealth Preservation](https://openaccess.thecvf.com/content/CVPR2024W/AdvML/html/Zhang_Enhancing_the_Transferability_of_Adversarial_Attacks_with_Stealth_Preservation_CVPRW_2024_paper.html)
 
@@ -39,7 +40,7 @@ Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
 
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.jpg' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="1500" height="900"></div></div><div class='paper-box-text' markdown="1">
 
 [Attack End-to-End Autonomous Driving through Module-Wise Noise](https://cvpr24-advml.github.io/short_paper/8.pdf)
 
