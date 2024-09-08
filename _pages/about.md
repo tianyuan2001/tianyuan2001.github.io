@@ -40,37 +40,14 @@ My research interest includes autonomous driving safety and adversarial attack.
 - _2024.04_: &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
 
 # 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Enhancing the Transferability of Adversarial Attacks with Stealth Preservation](https://openaccess.thecvf.com/content/CVPR2024W/AdvML/html/Zhang_Enhancing_the_Transferability_of_Adversarial_Attacks_with_Stealth_Preservation_CVPRW_2024_paper.html)
+[RobustE2E: Exploring the Robustness of End-to-End Autonomous Driving](https://www.mdpi.com/2079-9292/13/16/3299)
 
-Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
+Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei Bao, Zichao Zhang, Qiang Fu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:YsMSGLbcyi4C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:YsMSGLbcyi4C'></span></strong>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Attack End-to-End Autonomous Driving through Module-Wise Noise](https://cvpr24-advml.github.io/short_paper/8.pdf)
-
-Lu Wang, **Tianyuan Zhang**, Yikai Han, Muyang Fang, Ting Jin, Jiaqi Kang
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:eQOLeE2rZwMC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:eQOLeE2rZwMC'></span></strong>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Towards Robust Physical-world Backdoor Attacks on Lane Detection](https://arxiv.org/abs/2405.05553)
-
-Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:WF5omc3nYNoC'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:UebtZRa9Y70C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:UebtZRa9Y70C'></span></strong>
 </div>
 </div>
 
@@ -85,17 +62,38 @@ Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[RobustE2E: Exploring the Robustness of End-to-End Autonomous Driving](https://www.mdpi.com/2079-9292/13/16/3299)
+[Towards Robust Physical-world Backdoor Attacks on Lane Detection](https://arxiv.org/abs/2405.05553)
 
-Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei Bao, Zichao Zhang, Qiang Fu
+Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:UebtZRa9Y70C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:UebtZRa9Y70C'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:WF5omc3nYNoC'></span></strong>
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Attack End-to-End Autonomous Driving through Module-Wise Noise](https://cvpr24-advml.github.io/short_paper/8.pdf)
+
+Lu Wang, **Tianyuan Zhang**, Yikai Han, Muyang Fang, Ting Jin, Jiaqi Kang
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:eQOLeE2rZwMC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:eQOLeE2rZwMC'></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing the Transferability of Adversarial Attacks with Stealth Preservation](https://openaccess.thecvf.com/content/CVPR2024W/AdvML/html/Zhang_Enhancing_the_Transferability_of_Adversarial_Attacks_with_Stealth_Preservation_CVPRW_2024_paper.html)
+
+Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:YsMSGLbcyi4C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:YsMSGLbcyi4C'></span></strong>
+</div>
+</div>
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
