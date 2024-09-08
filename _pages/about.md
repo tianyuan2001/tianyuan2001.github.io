@@ -23,6 +23,11 @@ My research interest includes autonomous driving safety and adversarial attack.
 
  <!-- I have published more than 10 papers at the top international AI conferences with total<a href='https://scholar.google.com/citations?user=w0mmwl4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
+# 📖 Educations
+
+- _2023.09 - present_, PhD in Computer Software and Theory, Beihang University.
+- _2019.09 - 2023.06_, BSc in Computer Science and Technology, Beihang University.
+
 # 🔥 News
 
 - _2024.08_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
@@ -78,18 +83,13 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:UebtZRa9Y70C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:UebtZRa9Y70C'></span></strong>
 
-</div>
-</div>
+
 
 <!-- # 🎖 Honors and Awards
 
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📖 Educations
-
-- _2023.09 - present_, PhD in Computer Software and Theory, Beihang University.
-- _2019.09 - 2023.06_, BSc in Computer Science and Technology, Beihang University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
