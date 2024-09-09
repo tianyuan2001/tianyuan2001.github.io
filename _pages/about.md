@@ -143,6 +143,17 @@ Yisong Xiao, **Tianyuan Zhang**, Shunchang Liu, Haotong Qin
 [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:u5HHmVD_uO8C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:u5HHmVD_uO8C'></span></strong>
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCC 2022</div><img src='images/publications/2022/TCC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cloud workload turning points prediction via cloud feature-enhanced deep learning](https://ieeexplore.ieee.org/abstract/document/9737400/)
+
+Li Ruan, Yu Bai, Shaoning Li, Jiaxun Lv, **Tianyuan Zhang**, Limin Xiao, Haiguang Fang, Chunhao Wang, Yunzhi Xue
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:2osOgNQ5qMEC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:2osOgNQ5qMEC'></span></strong>
+</div>
+</div>
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
