@@ -36,8 +36,11 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🔥 News
 
 - _2024.08_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
-- _2024.07_: &nbsp;🎉🎉 Two papers accepted by ACM Multimedia 2024 (One first-authored).
+- _2024.07_: &nbsp;🎉🎉 Two papers (One first-authored) accepted by ACM Multimedia 2024.
 - _2024.04_: &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
+- _2023.12_: &nbsp;🎉🎉 One paper accepted by Visual Intelligence 2023.
+- _2023.09_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2023.
+- _2023.04_: &nbsp;🎉🎉 Two papers (One first-authored) accepted by IEEE CVPR 2023 Workshops.
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
@@ -96,6 +99,50 @@ Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Visual Intelligence 2023</div><img src='images/publications/2023/visual_intelligence.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RobustMQ: benchmarking robustness of quantized models](https://link.springer.com/article/10.1007/s44267-023-00031-w)
+
+Yisong Xiao, Aishan Liu, **Tianyuan Zhang**, Haotong Qin, Jinyang Guo, Xianglong Liu
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:d1gkVwhDpl0C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:d1gkVwhDpl0C'></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2023</div><img src='images/publications/2023/electronics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Exploring the physical-world adversarial robustness of vehicle detection](https://www.mdpi.com/2079-9292/12/18/3921)
+
+Wei Jiang\*, **Tianyuan Zhang\***, Shuangcheng Liu, Weiyu Ji, Zichao Zhang, Gang Xiao
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:9yKSN-GCB0IC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:9yKSN-GCB0IC'></span></strong>
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshops</div><img src='images/publications/2023/CVPR2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Benchmarking the robustness of quantized models](https://arxiv.org/abs/2304.03968)
+
+Yisong Xiao, **Tianyuan Zhang**, Shunchang Liu, Haotong Qin
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:u-x6o8ySG0sC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:u-x6o8ySG0sC'></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshops</div><img src='images/publications/2023/CVPR_DCI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Benchmarking the physical-world adversarial robustness of vehicle detection](https://arxiv.org/abs/2304.05098)
+
+**Tianyuan Zhang**, Yisong Xiao, Xiaoya Zhang, Hao Li, Lu Wang
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:u5HHmVD_uO8C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:u5HHmVD_uO8C'></span></strong>
+</div>
+</div>
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
