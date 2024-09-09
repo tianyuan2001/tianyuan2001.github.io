@@ -41,6 +41,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 - _2023.12_: &nbsp;🎉🎉 One paper accepted by Visual Intelligence 2023.
 - _2023.09_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2023.
 - _2023.04_: &nbsp;🎉🎉 Two papers (One first-authored) accepted by IEEE CVPR 2023 Workshops.
+- _2022.03_: &nbsp;🎉🎉 One paper accepted by IEEE TCC 2022.
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
