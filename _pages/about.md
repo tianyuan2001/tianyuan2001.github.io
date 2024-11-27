@@ -34,7 +34,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 - *2023.12* I received the **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
 
 # 🔥 News
-
+- _2024.11_: &nbsp;🎉🎉 One paper accepted by ICSE 2025.
 - _2024.08_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
 - _2024.07_: &nbsp;🎉🎉 Two papers (One first-authored) accepted by ACM Multimedia 2024.
 - _2024.04_: &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
@@ -58,7 +58,7 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-lanevil.png' alt="sym" width="100%"></div></div
 ><div class='paper-box-text' markdown="1">
 
-[LanEvil: Benchmarking the Robustness of Lane Detection to Environmental Illusions](https://arxiv.org/abs/2406.00934)
+[LanEvil: Benchmarking the Robustness of Lane Detection to Environmental Illusions](https://dl.acm.org/doi/abs/10.1145/3664647.3680761)
 
 **Tianyuan Zhang**, Lu Wang, Hainan Li, Yisong Xiao, Siyuan Liang, Aishan Liu✉️, Xianglong Liu, Dacheng Tao
 
@@ -70,7 +70,7 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Towards Robust Physical-world Backdoor Attacks on Lane Detection](https://arxiv.org/abs/2405.05553)
+[Towards Robust Physical-world Backdoor Attacks on Lane Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3680766)
 
 Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 
