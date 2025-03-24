@@ -25,23 +25,25 @@ My research interest includes autonomous driving safety and adversarial attack.
 
 # 📖 Educations
 
-- _2023.09 - present_, Ph.D. in Computer Software and Theory, Beihang University.
-- _2019.09 - 2023.06_, B.Sc in Computer Science and Technology, Beihang University.
+- **2023.09 - present**, Ph.D. in Computer Software and Theory, Beihang University.
+- **2019.09 - 2023.06**, B.Sc in Computer Science and Technology, Beihang University.
 
 # 🎖 Honors and Awards
 
-- *2023.6* I was selected as **Excellent Graduate of Beijing**.
-- *2023.12* I received the **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
+- **\[2023.06\]** I was selected as **Excellent Graduate of Beijing**.
+- **\[2023.12\]** I received the **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
 
 # 🔥 News
-- _2024.11_: &nbsp;🎉🎉 One paper accepted by ICSE 2025.
-- _2024.08_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
-- _2024.07_: &nbsp;🎉🎉 Two papers (One first-authored) accepted by ACM Multimedia 2024.
-- _2024.04_: &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
-- _2023.12_: &nbsp;🎉🎉 One paper accepted by Visual Intelligence 2023.
-- _2023.09_: &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2023.
-- _2023.04_: &nbsp;🎉🎉 Two papers (One first-authored) accepted by IEEE CVPR 2023 Workshops.
-- _2022.03_: &nbsp;🎉🎉 One paper accepted by IEEE TCC 2022.
+- **\[<font color=red>Workshop@CVPR 2025</font>\]** &nbsp;🏆 &nbsp;🏆I am co-organizing the [5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X](https://cvpr25-advml.github.io/) on CVPR 2025. Please submit your papers and participate the challenge to win prizes!
+- **\[<font color=red>2025.03</font>\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
+- **\[2024.11\]** &nbsp;🎉🎉 One paper accepted by ICSE 2025.
+- **\[2024.08\]** &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
+- **\[2024.07\]** &nbsp;🎉🎉 Two papers (One first-authored) accepted by ACM Multimedia 2024.
+- **\[2024.04\]** &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
+- **\[2023.12\]** &nbsp;🎉🎉 One paper accepted by Visual Intelligence 2023.
+- **\[2023.09\]** &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2023.
+- **\[2023.04\]** &nbsp;🎉🎉 Two papers (One first-authored) accepted by IEEE CVPR 2023 Workshops.
+- **\[2022.03\]** &nbsp;🎉🎉 One paper accepted by IEEE TCC 2022.
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
