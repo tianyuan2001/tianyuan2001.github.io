@@ -34,7 +34,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 - **\[2023.12\]** I received the **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
 
 # 🔥 News
-- **\[<font color=red>Workshop@CVPR 2025</font>\]** &nbsp;🏆 &nbsp;🏆I am co-organizing the [5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X](https://cvpr25-advml.github.io/) on CVPR 2025. Please submit your papers and participate the challenge to win prizes!
+- **\[<font color=red>Workshop@CVPR 2025</font>\]** &nbsp;🏆🏆 I am co-organizing the [5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X](https://cvpr25-advml.github.io/) on CVPR 2025. Please submit your papers and participate the challenge to win prizes!
 - **\[<font color=red>2025.03</font>\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 - **\[2024.11\]** &nbsp;🎉🎉 One paper accepted by ICSE 2025.
 - **\[2024.08\]** &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
