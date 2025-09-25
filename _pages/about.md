@@ -37,7 +37,8 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🔥 News
 - **\[<font color=red>Special Issue@Pattern Analysis and Applications</font>\]** &nbsp;📪📪 I am serving as the Guest Editor for the Special Issue on [the Cognitive Robustness of Foundation Models](https://link.springer.com/collections/gcebcihjed) on Pattern Analysis and Applications (SCI JCR Q2). Please submit your papers!
 - **\[<font color=red>Workshop@CVPR 2025</font>\]** &nbsp;🏆🏆 I am co-organizing the [5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X](https://cvpr25-advml.github.io/) on CVPR 2025. Please submit your papers and participate the challenge to win prizes!
-- **\[<font color=red>2025.07</font>\]** &nbsp;🎉🎉 Two papers accepted by ACM MM 2025 (One regular paper and one demos/videos track paper).
+- **\[<font color=red>2025.07</font>\]** &nbsp;🎉🎉 One first-authored paper accepted by Chinese Journal of Electronics.
+- **\[2025.07\]** &nbsp;🎉🎉 Two papers accepted by ACM MM 2025 (One regular paper and one demos/videos track paper).
 - **\[2025.06\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 - **\[2025.03\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 - **\[2024.11\]** &nbsp;🎉🎉 One paper accepted by ICSE 2025.
@@ -50,6 +51,84 @@ My research interest includes autonomous driving safety and adversarial attack.
 - **\[2022.03\]** &nbsp;🎉🎉 One paper accepted by IEEE TCC 2022.
 
 # 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJE 2025</div><img src='images/publications/2025/cje_survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Secure and Robust Vision-Language Models in Autonomous Driving: A Survey for Perception-Oriented and Decision-Oriented Attacks](https://cje.ejournal.org.cn/article/pdf/preview/10.23919/cje.2025.00.095.pdf)
+
+**Tianyuan Zhang**, Jiangfan Liu, Yongkang Guo, Fangzhi Zhong, Wei Bao, Jian Dong✉️, Aishan Liu, Xianglong Liu
+
+<!-- [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:ULOm3_A8WrAC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:ULOm3_A8WrAC'></span></strong> -->
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 (demo and videos track)</div><img src='images/publications/2025/acmmm_metadv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving](https://arxiv.org/pdf/2508.06534?)
+
+Aishan Liu, Jiakai Wang, **Tianyuan Zhang**, Hainan Li, Jiangfan Liu, Siyuan Liang, Yilong Ren, Xianglong Liu✉️, Dacheng Tao
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:ULOm3_A8WrAC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:ULOm3_A8WrAC'></span></strong>
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/publications/2025/acmmm_crossinject.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Manipulating Multimodal Agents via Cross-Modal Prompt Injection](https://arxiv.org/pdf/2504.14348)
+
+Le Wang\*, Zonghao Ying\*, **Tianyuan Zhang**, Siyuan Liang, Shengshan Hu, Mingchuan Zhang, Aishan Liu✉️, Xianglong Liu
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:3fE2CSJIrl8C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:3fE2CSJIrl8C'></span></strong>
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS 2025</div><img src='images/publications/2025/tifs_jailbreak.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Jailbreak vision language models via bi-modal adversarial prompt](https://ieeexplore.ieee.org/abstract/document/11059299)
+
+Zonghao Ying, Aishan Liu✉️, **Tianyuan Zhang**, Zhengmin Yu, Siyuan Liang, Xianglong Liu, Dacheng Tao
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:roLk4NBRz8UC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:roLk4NBRz8UC'></span></strong>
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS 2025</div><img src='images/publications/2025/tifs_contextual.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Compromising llm driven embodied agents with contextual backdoor attacks](https://ieeexplore.ieee.org/abstract/document/10943262)
+
+Aishan Liu, Yuguang Zhou, Xianglong Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Jiakai Wang, Yanjun Pu, Tianlin Li, Junqi Zhang, Wenbo Zhou, Qing Guo, Dacheng Tao
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:MXK_kJrjxJIC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:MXK_kJrjxJIC'></span></strong>
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSE 2025</div><img src='images/publications/2025/icse_bdefectsnn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Bdefects4nn: A backdoor defect database for controlled localization studies in neural networks](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a606/251mFRB7BE4)
+
+Yisong Xiao, Aishan Liu✉️, Xinwei Zhang, **Tianyuan Zhang**, Tianlin Li, Siyuan Liang, Xianglong Liu, Yang Liu, Dacheng Tao
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:5nxA0vEk-isC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:5nxA0vEk-isC'></span></strong>
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2024</div><img src='images/publications/2024/electronics-robuste2e.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -60,6 +139,8 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:UebtZRa9Y70C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:UebtZRa9Y70C'></span></strong>
 </div>
 </div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-lanevil.png' alt="sym" width="100%"></div></div
 ><div class='paper-box-text' markdown="1">
@@ -73,6 +154,8 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 </div>
 </div>
 
+<!------------------------------------------------------------------------------------------------------------------------->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -83,6 +166,8 @@ Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:WF5omc3nYNoC'></span></strong>
 </div>
 </div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -95,6 +180,8 @@ Lu Wang, **Tianyuan Zhang**, Yikai Han, Muyang Fang, Ting Jin, Jiaqi Kang
 </div>
 </div>
 
+<!------------------------------------------------------------------------------------------------------------------------->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -105,6 +192,8 @@ Xinwei Zhang, **Tianyuan Zhang**, Yitong Zhang, Shuangcheng Liu
 [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:YsMSGLbcyi4C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:YsMSGLbcyi4C'></span></strong>
 </div>
 </div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Visual Intelligence 2023</div><img src='images/publications/2023/visual_intelligence.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -117,6 +206,8 @@ Yisong Xiao, Aishan Liu, **Tianyuan Zhang**, Haotong Qin, Jinyang Guo, Xianglong
 </div>
 </div>
 
+<!------------------------------------------------------------------------------------------------------------------------->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Electronics 2023</div><img src='images/publications/2023/electronics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -128,6 +219,7 @@ Wei Jiang\*, **Tianyuan Zhang\***, Shuangcheng Liu, Weiyu Ji, Zichao Zhang, Gang
 </div>
 </div>
 
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshops</div><img src='images/publications/2023/CVPR2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -140,6 +232,8 @@ Yisong Xiao, **Tianyuan Zhang**, Shunchang Liu, Haotong Qin
 </div>
 </div>
 
+<!------------------------------------------------------------------------------------------------------------------------->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshops</div><img src='images/publications/2023/CVPR_DCI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -150,6 +244,8 @@ Yisong Xiao, **Tianyuan Zhang**, Shunchang Liu, Haotong Qin
 [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=w0mmwl4AAAAJ&citation_for_view=w0mmwl4AAAAJ:u5HHmVD_uO8C) <strong><span class='show_paper_citations' data='w0mmwl4AAAAJ:u5HHmVD_uO8C'></span></strong>
 </div>
 </div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCC 2022</div><img src='images/publications/2022/TCC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
