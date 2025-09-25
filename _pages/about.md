@@ -37,7 +37,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🔥 News
 - **\[<font color=red>Special Issue@Pattern Analysis and Applications</font>\]** &nbsp;📪📪 I am serving as the Guest Editor for the Special Issue on [the Cognitive Robustness of Foundation Models](https://link.springer.com/collections/gcebcihjed) on Pattern Analysis and Applications (SCI JCR Q2). Please submit your papers!
 - **\[<font color=red>Workshop@CVPR 2025</font>\]** &nbsp;🏆🏆 I am co-organizing the [5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X](https://cvpr25-advml.github.io/) on CVPR 2025. Please submit your papers and participate the challenge to win prizes!
-- **\[<font color=red>2025.07</font>\]** &nbsp;🎉🎉 One first-authored paper accepted by Chinese Journal of Electronics.
+- **\[<font color=red>2025.09</font>\]** &nbsp;🎉🎉 One first-authored paper accepted by Chinese Journal of Electronics.
 - **\[2025.07\]** &nbsp;🎉🎉 Two papers accepted by ACM MM 2025 (One regular paper and one demos/videos track paper).
 - **\[2025.06\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 - **\[2025.03\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
@@ -64,7 +64,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 (demo and videos track)</div><img src='images/publications/2025/acmmm_metadv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 (demo/videos track)</div><img src='images/publications/2025/acmmm_metadv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving](https://arxiv.org/pdf/2508.06534?)
