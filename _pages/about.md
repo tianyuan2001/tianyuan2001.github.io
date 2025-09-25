@@ -43,7 +43,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 - **\[2025.03\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 - **\[2024.11\]** &nbsp;🎉🎉 One paper accepted by ICSE 2025.
 - **\[2024.08\]** &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2024.
-- **\[2024.07\]** &nbsp;🎉🎉 Two papers (One first-authored) accepted by ACM Multimedia 2024.
+- **\[2024.07\]** &nbsp;🎉🎉 Two papers (One first-authored) accepted by ACM MM 2024.
 - **\[2024.04\]** &nbsp;🎉🎉 Two papers accepted by IEEE CVPR 2024 Workshops.
 - **\[2023.12\]** &nbsp;🎉🎉 One paper accepted by Visual Intelligence 2023.
 - **\[2023.09\]** &nbsp;🎉🎉 One fisrt-co-authored paper accepted by Electronics 2023.
@@ -142,7 +142,7 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-lanevil.png' alt="sym" width="100%"></div></div
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/publications/2024/acmmm-lanevil.png' alt="sym" width="100%"></div></div
 ><div class='paper-box-text' markdown="1">
 
 [LanEvil: Benchmarking the Robustness of Lane Detection to Environmental Illusions](https://dl.acm.org/doi/abs/10.1145/3664647.3680761)
@@ -156,7 +156,7 @@ Jiang Wei\*, Lu Wang\*, **Tianyuan Zhang\***, Yuwei Chen, Jian Dong✉️, Wei B
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Multimedia 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/publications/2024/acmmm-backdoor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards Robust Physical-world Backdoor Attacks on Lane Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3680766)
@@ -169,7 +169,7 @@ Xinwei Zhang, Aishan Liu✉️, **Tianyuan Zhang**, Siyuan Liang, Xianglong Liu
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshop</div><img src='images/publications/2024/cvprw-wlu.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Attack End-to-End Autonomous Driving through Module-Wise Noise](https://cvpr24-advml.github.io/short_paper/8.pdf)
@@ -182,7 +182,7 @@ Lu Wang, **Tianyuan Zhang**, Yikai Han, Muyang Fang, Ting Jin, Jiaqi Kang
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshops</div><img src='images/publications/2024/cvprw-xw.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2024 Workshop</div><img src='images/publications/2024/cvprw-xw.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing the Transferability of Adversarial Attacks with Stealth Preservation](https://openaccess.thecvf.com/content/CVPR2024W/AdvML/html/Zhang_Enhancing_the_Transferability_of_Adversarial_Attacks_with_Stealth_Preservation_CVPRW_2024_paper.html)
@@ -221,7 +221,7 @@ Wei Jiang\*, **Tianyuan Zhang\***, Shuangcheng Liu, Weiyu Ji, Zichao Zhang, Gang
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshops</div><img src='images/publications/2023/CVPR2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshop</div><img src='images/publications/2023/CVPR2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Benchmarking the robustness of quantized models](https://arxiv.org/abs/2304.03968)
@@ -234,7 +234,7 @@ Yisong Xiao, **Tianyuan Zhang**, Shunchang Liu, Haotong Qin
 
 <!------------------------------------------------------------------------------------------------------------------------->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshops</div><img src='images/publications/2023/CVPR_DCI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE CVPR 2023 Workshop</div><img src='images/publications/2023/CVPR_DCI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Benchmarking the physical-world adversarial robustness of vehicle detection](https://arxiv.org/abs/2304.05098)
