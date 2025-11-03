@@ -37,7 +37,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🔥 News
 - **\[<font color=red>Special Issue@Pattern Analysis and Applications</font>\]** &nbsp;📪📪 I am serving as the Guest Editor for the Special Issue on [the Cognitive Robustness of Foundation Models](https://link.springer.com/collections/gcebcihjed) on Pattern Analysis and Applications (SCI JCR Q2). Please submit your papers!
 - **\[<font color=red>Workshop@CVPR 2025</font>\]** &nbsp;📪📪 I am co-organizing the [5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X](https://cvpr25-advml.github.io/) on CVPR 2025. Please submit your papers and participate the challenge to win prizes!
-- **\[<font color=red>2025.11</font>\]** &nbsp;🏆🏆 Our paper MetADV is awarded the Most Popular Demo in ACM MM 2025. Congrats!
+- **\[<font color=red>2025.11</font>\]** &nbsp;🏆🏆 Our paper MetADV is awarded the **Most Popular Demo** in ACM MM 2025. Congrats!
 - **\[2025.09\]** &nbsp;🎉🎉 One first-authored paper accepted by Chinese Journal of Electronics.
 - **\[2025.07\]** &nbsp;🎉🎉 Two papers accepted by ACM MM 2025 (One regular paper and one demos/videos track paper).
 - **\[2025.06\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
