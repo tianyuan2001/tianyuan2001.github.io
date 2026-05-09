@@ -53,7 +53,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 
   **Tianyuan Zhang**, Lu Wang, Xinwei Zhang, Yitong Zhang, Boyi Jia, Siyuan Liang, Shengshan Hu, Qiang Fu, Aishan Liu✉︎, Xianglong Liu
 
-  Machine Intelligence Research (MIR), 2026
+  Machine Intelligence Research (MIR), 2026.
 
 
 - **Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles**&nbsp;\[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/41238)\] <font color=red>CCF-A</font>
@@ -70,11 +70,11 @@ My research interest includes autonomous driving safety and adversarial attack.
   Chinese Journal of Electronics (CJE), 2025.
 
 
-- **MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving**&nbsp;\[[pdf](https://arxiv.org/pdf/2508.06534?)\] <font color=red>CCF-A</font>
+- **MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving**&nbsp;\[[pdf](https://arxiv.org/pdf/2508.06534?)\] <font color=red>Most Popular Demo Award, CCF-A</font>
 
   Aishan Liu, Jiakai Wang, **Tianyuan Zhang**, Hainan Li, Jiangfan Liu, Siyuan Liang, Yilong Ren, Xianglong Liu✉︎, Dacheng Tao
 
-  ACM Multimedia (ACM MM), 2025. <font color=red>Most Popular Demo Award</font>
+  ACM Multimedia (ACM MM), 2025.
 
 
 - **Manipulating Multimodal Agents via Cross-Modal Prompt Injection**&nbsp;\[[pdf](https://arxiv.org/pdf/2504.14348)\] <font color=red>CCF-A</font>
@@ -100,9 +100,9 @@ My research interest includes autonomous driving safety and adversarial attack.
 
 - **Compromising LLM-Driven Embodied Agents with Contextual Backdoor Attacks**&nbsp;\[[pdf](https://ieeexplore.ieee.org/abstract/document/10943262)\] <font color=red>CCF-A, SCI JCR Q1, IF=8</font>
 
-Aishan Liu, Yuguang Zhou, Xianglong Liu✉︎, **Tianyuan Zhang**, Siyuan Liang, Jiakai Wang, Yanjun Pu, Tianlin Li, Junqi Zhang, Wenbo Zhou, Qing Guo, Dacheng Tao
+  Aishan Liu, Yuguang Zhou, Xianglong Liu✉︎, **Tianyuan Zhang**, Siyuan Liang, Jiakai Wang, Yanjun Pu, Tianlin Li, Junqi Zhang, Wenbo Zhou, Qing Guo, Dacheng Tao
 
-IEEE Transactions on Information Forensics and Security (IEEE TIFS), 2025.
+  IEEE Transactions on Information Forensics and Security (IEEE TIFS), 2025.
 
 
 - **Bdefects4NN: A Backdoor Defect Database for Controlled Localization Studies in Neural Networks**&nbsp;\[[pdf](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a606/251mFRB7BE4)\] <font color=red>CCF-A</font>
