@@ -57,6 +57,7 @@ My research interest includes autonomous driving safety and adversarial attack.
 
 
 - **Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles**&nbsp;\[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/41238)\]
+
   Jiangfan Liu, Yongkang Guo, Fangzhi Zhong, **Tianyuan Zhang**, Zonglei Jing, Siyuan Liang, Jiakai Wang, Mingchuan Zhang, Aishan Liu✉︎, Xianglong Liu
 
   AAAI Conference on Artificial Intelligence (AAAI), 2026.
