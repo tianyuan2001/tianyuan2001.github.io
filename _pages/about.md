@@ -38,18 +38,23 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🔥 News
 - **\[<font color=red>Special Issue@Pattern Analysis and Applications</font>\]** &nbsp;📪📪 I am serving as the Guest Editor for the Special Issue on [the Cognitive Robustness of Foundation Models](https://link.springer.com/collections/gcebcihjed) on Pattern Analysis and Applications (SCI JCR Q2). Please submit your papers!
 - **\[<font color=red>Workshop@CVPR 2026</font>\]** &nbsp;📪📪 I am co-organizing the [The 6th Workshop of Adversarial Machine Learning on Computer Vision: Safety of Vision-Language Agents](https://cvpr26-advml.github.io/) on CVPR 2026. Please submit your papers and participate the challenge to win prizes!
+- **\[2026.06\]** &nbsp;🎉🎉 One first-authored paper accepted by IEEE TPAMI 2026.
 - **\[2026.04\]** &nbsp;🎉🎉 One first-authored paper accepted by MIR 2026.
 - **\[2026.01\]** &nbsp;🎉🎉 One paper accepted by AAAI 2026.
 - **\[<font color=red>2025.11</font>\]** &nbsp;🏆🏆 Our paper MetADV is awarded the **Most Popular Demo** in ACM MM 2025. Congrats!
 - **\[2025.09\]** &nbsp;🎉🎉 One first-authored paper accepted by Chinese Journal of Electronics.
 - **\[2025.07\]** &nbsp;🎉🎉 Two papers accepted by ACM MM 2025 (One regular paper and one demos/videos track paper).
 - **\[2025.06\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
-- **\[2025.04\]** &nbsp;🎉🎉 One paper accepted by IJCNN 2025.
-- **\[2025.03\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 
 # 📝 Publications
 
-- **Visual Adversarial Attack on Vision-language Models for Autonomous Driving**&nbsp;\[[pdf](https://arxiv.org/pdf/2411.18275)\]
+- **Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective**&nbsp;\[[pdf](https://ieeexplore.ieee.org/document/11595247)\]
+
+  **Tianyuan Zhang**, Xianglong Liu✉︎, Aishan Liu, Lu Wang, Yitong Zhang, Peng Yue, Mingchuan Zhang, Siyuan Liang, Dacheng Tao
+
+  IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2026.
+
+- **Visual Adversarial Attack on Vision-language Models for Autonomous Driving**&nbsp;\[[pdf](https://link.springer.com/article/10.1007/s11633-026-1667-4)\]
 
   **Tianyuan Zhang**, Lu Wang, Xinwei Zhang, Yitong Zhang, Boyi Jia, Siyuan Liang, Shengshan Hu, Qiang Fu, Aishan Liu✉︎, Xianglong Liu
 
