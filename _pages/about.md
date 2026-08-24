@@ -38,6 +38,10 @@ My research interest includes autonomous driving safety and adversarial attack.
 # 🔥 News
 - **\[<font color=red>Special Issue@Pattern Analysis and Applications</font>\]** &nbsp;📪📪 I am serving as the Guest Editor for the Special Issue on [the Cognitive Robustness of Foundation Models](https://link.springer.com/collections/gcebcihjed) on Pattern Analysis and Applications (SCI JCR Q2). Please submit your papers!
 - **\[<font color=red>Workshop@CVPR 2026</font>\]** &nbsp;📪📪 I am co-organizing the [The 6th Workshop of Adversarial Machine Learning on Computer Vision: Safety of Vision-Language Agents](https://cvpr26-advml.github.io/) on CVPR 2026. Please submit your papers and participate the challenge to win prizes!
+- **\[2026.08\]** &nbsp;🎉🎉 One first-authored paper accepted by PR 2026.
+- **\[<font color=red>2026.08</font>\]** &nbsp;🏆🏆 Our paper LatentGuard is awarded the **Best Student Paper** in IJCAI DDL2.0 2026. Congrats!
+- **\[2026.08\]** &nbsp;🎉🎉 One first-authored paper accepted by IJCAI DDL2.0 2026.
+- **\[2026.07\]** &nbsp;🎉🎉 Three papers accepted by ACM MM 2026 (Two regular papers and one demos/videos track paper).
 - **\[2026.06\]** &nbsp;🎉🎉 One first-authored paper accepted by IEEE TPAMI 2026.
 - **\[2026.04\]** &nbsp;🎉🎉 One first-authored paper accepted by MIR 2026.
 - **\[2026.01\]** &nbsp;🎉🎉 One paper accepted by AAAI 2026.
@@ -47,6 +51,36 @@ My research interest includes autonomous driving safety and adversarial attack.
 - **\[2025.06\]** &nbsp;🎉🎉 One paper accepted by IEEE TIFS 2025.
 
 # 📝 Publications
+
+- **Human-aligned robust multimodal cognitive state recognition from ocular and behavioral signals in autonomous driving**&nbsp;\[[pdf](https://www.sciencedirect.com/science/article/pii/S0031320326016523)\]
+
+  **Tianyuan Zhang**, Lu Wang, Jiaqi Kang, Jiangfan Liu, Xinwei Zhang, Yuwei Chen, Mingchuan Zhang, Jiakai Wang, Aishan Liu✉︎, Xianglong Liu
+
+  Pattern Recognition (PR), 2026.
+
+- **LatentGuard: Safeguarding Autonomous Driving VLMs via Latent World Logic Repair**&nbsp;\[[pdf](https://ai-safety-workshop-ijcai2026.github.io/pdf/LATENTGUARD_Safeguarding_Autonomous_Driving_VLMs_via_Latent_World_Logic_Repair.pdf)\]
+
+  **Tianyuan Zhang**, Maoran Ye, Yang Qu, Jiangfan Liu, Zonglei Jing, Taichuan Li, Aishan Liu✉︎, Jiakai Wang, Yuqing Ma, Xianglong Liu
+
+  International Joint Conference on Artificial Intelligence (IJCAI) DDL2.0, 2026. <font color=red>Best Student Paper Award</font>
+
+- **ThreatVerse: A Closed-Loop World Model Simulator for Autonomous Driving Safety Evaluation**&nbsp;
+
+  Jiangfan Liu, Zexuan Cui, **Tianyuan Zhang**, Zonglei Jing, Yaoyuan Zhang, Jiakai Wang, Jinyang Guo, Yuqing Ma, Lu Sheng, Aishan Liu, Xianglong Liu
+
+  ACM Multimedia (ACM MM), 2026.
+
+- **MiuGS: Modality-Integrated Unified Gaussian Representation for Physical Adversarial Object Generation in 3D Detection**&nbsp;
+
+  Zhengquan Sun, Jin Hu, **Tianyuan Zhang**, Fei Xiansong, Xiaoqi Jiang, Jiakai Wang✉︎, Xianglong Liu
+
+  ACM Multimedia (ACM MM), 2026.
+
+- **SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving**&nbsp;
+
+  Jiangfan Liu, Zexuan Cui, **Tianyuan Zhang**, Zonglei Jing, Zonghao Ying, Yaoyuan Zhang, Jiakai Wang, Xiaoqi Jiang, Aishan Liu✉︎, Xianglong Liu
+
+  ACM Multimedia (ACM MM), 2026.
 
 - **Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective**&nbsp;\[[pdf](https://ieeexplore.ieee.org/document/11595247)\]
 
