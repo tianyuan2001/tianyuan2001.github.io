@@ -14,6 +14,8 @@ Tianyuan Zhang is a PhD student at State Key Laboratory of Software Development 
 
 My research interest includes autonomous driving safety and adversarial attack.
 
+{% include scholar-stats.html %}
+
 # 📖 Educations
 {: #educations}
 

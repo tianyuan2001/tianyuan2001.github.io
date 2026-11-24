@@ -19,21 +19,28 @@
 
   async function initScholar() {
     const stats = document.querySelector('[data-scholar-stats]');
-    if (!stats) return;
-    const repository = stats.dataset.repository;
+    const config = stats || document.querySelector('[data-scholar-config]');
+    if (!config) return;
+    const total = document.querySelector('#total_cit') || (stats && stats.querySelector('[data-scholar-total]'));
+    const updated = stats && stats.querySelector('[data-scholar-updated]');
+    const citationElements = document.querySelectorAll('.show_paper_citations, [data-scholar-paper]');
+    if (!total && !citationElements.length) return;
+    citationElements.forEach(element => {
+      if (!element.textContent.trim()) element.textContent = '· Citations: —';
+    });
+    const repository = config.dataset.repository;
     const path = 'google-scholar-stats/gs_data.json';
     const raw = `https://raw.githubusercontent.com/${repository}/${path}`;
     const cdn = `https://cdn.jsdelivr.net/gh/${repository}@${path}`;
-    const urls = stats.dataset.useCdn === 'true' ? [cdn, raw] : [raw, cdn];
+    const urls = config.dataset.useCdn === 'true' ? [cdn, raw] : [raw, cdn];
     for (const url of urls) {
       try {
         const data = await readJSON(url);
         if (!Number.isInteger(data.citedby) || data.citedby < 0) throw new Error('Invalid citation count');
-        stats.querySelector('[data-scholar-total]').textContent = data.citedby.toLocaleString('en-US');
-        const updated = stats.querySelector('[data-scholar-updated]');
+        if (total) total.textContent = data.citedby.toLocaleString('en-US');
         const date = new Date(data.updated);
         if (updated && !Number.isNaN(date.getTime())) {
-          updated.textContent = `Updated ${date.toLocaleDateString('en-CA', { timeZone: 'UTC' })}`;
+          updated.textContent = ` (updated ${date.toLocaleDateString('en-CA', { timeZone: 'UTC' })})`;
         }
         const publications = data.publications || {};
         const byTitle = new Map();
@@ -43,8 +50,8 @@
           // Duplicate titles require an explicit ID; don't guess which record to use.
           byTitle.set(title, byTitle.has(title) ? null : paper);
         });
-        document.querySelectorAll('[data-scholar-paper]').forEach(element => {
-          const id = element.dataset.scholarPaper;
+        citationElements.forEach(element => {
+          const id = (element.getAttribute('data') || element.dataset.scholarPaper || '').trim();
           const paper = id ? publications[id] : byTitle.get(normalizeTitle(element.dataset.scholarTitle));
           if (paper && Number.isInteger(paper.num_citations) && paper.num_citations >= 0) {
             element.textContent = `· Citations: ${paper.num_citations.toLocaleString('en-US')}`;
@@ -56,8 +63,8 @@
         // Try the other host; never replace unavailable data with a false zero.
       }
     }
-    stats.querySelector('[data-scholar-total]').textContent = '—';
-    stats.querySelector('[data-scholar-updated]').textContent = 'Temporarily unavailable';
+    if (total) total.textContent = '—';
+    if (updated) updated.textContent = ' (citation data temporarily unavailable)';
   }
 
   function initNews() {

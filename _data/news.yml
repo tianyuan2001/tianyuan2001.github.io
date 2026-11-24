@@ -4,8 +4,11 @@
 - label: "Workshop@CVPR 2026"
   text: "📪📪 I am co-organizing the [The 6th Workshop of Adversarial Machine Learning on Computer Vision: Safety of Vision-Language Agents](https://cvpr26-advml.github.io/) on CVPR 2026. Please submit your papers and participate the challenge to win prizes!"
   featured: true
-- label: "2026"
-  text: "🎉 Two papers accepted by **Pattern Recognition (PR)** and **IEEE Transactions on Multimedia (TMM)**: ProDream and Black-Box Adversarial Attack on Vision Language Models for Autonomous Driving."
+- label: "2026.11"
+  text: "🎉 One paper accepted by IEEE TPAMI 2026."
+  featured: false
+- label: "2026.11"
+  text: "🎉 One paper accepted by PR 2026."
   featured: false
 - label: "2026.08"
   text: "🎉🎉 One first-authored paper accepted by PR 2026."

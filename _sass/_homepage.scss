@@ -44,23 +44,9 @@ html { scroll-behavior: smooth; }
 }
 .publications > li { margin-bottom: 1.5rem; }
 .scholar-stats {
-  margin: 0 0 1.25rem;
-  color: #526170;
-  font-size: .8rem;
-  small { display: block; margin-top: .3rem; font-size: .65rem; }
+  small { color: #657582; font-size: .75em; }
 }
-.citation-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  padding: .4rem .6rem;
-  border: 1px solid #d4e4ef;
-  border-radius: 5px;
-  background: #f0f7fb;
-  color: #285773;
-  text-decoration: none;
-}
-.paper-citations { font-size: .8em; font-weight: 400; color: #526170; white-space: nowrap; }
+.paper-citations, .show_paper_citations { font-size: .8em; font-weight: 400; color: #526170; white-space: nowrap; }
 .visitor-map {
   margin-top: 1.5rem;
   padding-top: 1rem;

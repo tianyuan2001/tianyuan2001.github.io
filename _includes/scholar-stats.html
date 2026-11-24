@@ -1,6 +1,5 @@
 {% if site.scholar.enabled %}
-<div class="scholar-stats" data-scholar-stats data-repository="{{ site.repository | escape }}" data-use-cdn="{{ site.google_scholar_stats_use_cdn }}">
-  <a class="citation-badge" href="{{ site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Total citations <strong data-scholar-total>—</strong></a>
-  <small data-scholar-updated>Google Scholar</small>
-</div>
+<p class="scholar-stats" data-scholar-stats data-repository="{{ site.repository | escape }}" data-use-cdn="{{ site.google_scholar_stats_use_cdn }}">
+  My publications have received <strong id="total_cit" data-scholar-total>—</strong> citations on <a href="{{ site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>.<small data-scholar-updated></small>
+</p>
 {% endif %}

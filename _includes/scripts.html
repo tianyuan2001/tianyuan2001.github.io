@@ -1,2 +1,2 @@
-<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}" {% if site.scholar.enabled %}data-scholar-config data-repository="{{ site.repository | escape }}" data-use-cdn="{{ site.google_scholar_stats_use_cdn }}"{% endif %} defer></script>
 {% if site.google_analytics_id and site.google_analytics_id != empty %}{% include analytics.html %}{% endif %}

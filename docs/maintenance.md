@@ -66,7 +66,7 @@ Python 测试需要安装爬虫 requirements 中的 PyYAML。News 默认自动�
 - `git diff --check` 通过。
 - 未推送或部署，未验证线上 Scholar 抓取成功；访客地图缺少真实 widget ID。
 
-总引用数位于个人资料上方，每篇论文标题后都有 `Citations`。未成功抓取或无法唯一匹配时显示“—”，而不是 0。新论文未进入 Scholar 或标题不同，可在取得数据后填写 `scholar_id`。
+总引用数融入 `_pages/about.md` 的个人介绍文字，每篇论文标题后都有 `Citations`。未成功抓取或无法唯一匹配时显示“—”，而不是 0。新论文未进入 Scholar 或标题不同，可在取得数据后填写 `scholar_id`。
 
 ### 补充验证
 
@@ -75,3 +75,15 @@ Python 测试需要安装爬虫 requirements 中的 PyYAML。News 默认自动�
 - 浏览器确认 27 个逐篇引用位置及侧栏顶部总引用数均已生成，News 暂停后滚动位置保持不变。
 - 标题大小写/标点标准化、显式 Scholar ID、同名多记录拒绝猜测及缺失记录回归检查通过。
 - 当前引用数据显示“—”；没有将测试计数写入实际网站。
+
+### 直接在 Markdown 中放置引用数
+
+支持 AcadHomepage 原版写法，可在 `_pages/about.md` 任意论文条目后插入：
+
+```html
+<span class="show_paper_citations" data="YOUR_SCHOLAR_ID:PAPER_ID"></span>
+```
+
+`data` 填写 Scholar 论文详情 URL 中 `citation_for_view=` 后的完整值，不能使用他人的示例 ID。数据文件中的论文可填写 `scholar_id`，模板会生成相同的 class/data 标记；没有 ID 时才尝试唯一标题匹配。也兼容已有的 `data-scholar-paper` 写法。
+
+总引用数支持 `id="total_cit"`，默认通过 `scholar-stats.html` 在介绍文字后输出。逐篇引用加载不依赖总引用组件，删除总引用句子也不会让逐篇引用失效。
