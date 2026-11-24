@@ -10,11 +10,15 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-Tianyuan Zhang is a PhD student at State Key Laboratory of Software Development Environment at the Beihang University(BUAA), supervised by Prof. <a href='https://xlliu-beihang.github.io/'>Xianglong Liu</a> and Prof. <a href='https://liuaishan.github.io/index.html'>Aishan Liu</a>.
+I am a PhD student at State Key Laboratory of Software Development Environment at the Beihang University(BUAA), supervised by Prof. <a href='https://xlliu-beihang.github.io/'>Xianglong Liu</a> and Prof. <a href='https://liuaishan.github.io/index.html'>Aishan Liu</a>.
 
-My research interest includes autonomous driving safety and adversarial attack.
+My research interest includes Trustworthy AI, Embodied Agent, and Autonomous Driving. {% include scholar-stats.html %}
 
-{% include scholar-stats.html %}
+# 🔥 News
+{: #news}
+
+{% include news.html %}
+
 
 # 📖 Educations
 {: #educations}
@@ -25,19 +29,14 @@ My research interest includes autonomous driving safety and adversarial attack.
 
 # 🎖 Honors and Awards
 {: #honors-and-awards}
-- **\[2026.11\]** &nbsp;Shen Yuan Medal (top 0.1%), the highest student honor of BUAA.
-- **\[2026.10\]** &nbsp;CAST Young Science and Technology Talent Cultivation Program (Doctoral Student Special Plan).
-- **\[2026.10\]** &nbsp;China National Scholarship.
-- **\[2026.08\]** &nbsp;Best Student Paper Award, IJCAI 2026 DDL2.0 Workshop. 
-- **\[2025.11\]** &nbsp;Jiuhao Scholarship Special Prize (only 3 PhDs university-wide).
-- **\[2025.11\]** &nbsp;Most Popular Demo Award, ACM MM 2025. 
-- **\[2023.12\]** &nbsp;Outstanding Research Project of Shen Yuan Honors College, BUAA. 
-- **\[2023.06\]** &nbsp;Excellent Graduate of Beijing.
-
-# 🔥 News
-{: #news}
-
-{% include news.html %}
+- **Shen Yuan Medal (top 0.1%), the highest student honor of BUAA**, 2026.
+- **CAST Young Science and Technology Talent Cultivation Program (Doctoral Student Special Plan)**, 2026.
+- **China National Scholarship**, 2026.
+- **IJCAI DDL2.0 Best Student Paper Award**, 2026.
+- **Jiuhao Scholarship Special Prize (only 3 PhDs university-wide)**, 2025.
+- **ACM MM Most Popular Demo Award**, 2025.
+- **BUAA Outstanding Research Project**, 2023. 
+- **Excellent Graduate of Beijing**, 2023.
 
 # 📝 Publications
 {: #publications}
