@@ -32,15 +32,24 @@ OUTPUT_DIR=/tmp/homepage-scholar-results /tmp/homepage-scholar/bin/python google
 
 ## 左侧累计访客地图
 
-组件使用 ClustrMaps 记录访客 IP 的近似地理分布，不在页面公开 IP。GitHub Pages 是静态托管，累计访客需要第三方服务存储。
+已改用 **Flag Counter 的 Flag Map**，按访客国家/地区在世界地图上标旗。2026-11-24 创建本站专用计数器 `DF5U`，用户确认接受服务条款及隐私政策后启用免费、免邮箱方案。它不是城市级定位地图，也不公开原始 IP。
 
-1. 在 https://clustrmaps.com/ 注册本站 `https://tianyuan2001.github.io`。
-2. 选择平面地图 widget，复制 `map_v2.js?d=...` 中的 `d` 值（不是完整 HTML）。
-3. 填入 `_config.yml` 的 `visitor_map.clustrmaps_id`。
+配置位于 `_config.yml` 的 `visitor_map`：
 
-未配置时不加载服务，也不展示空白/虚假的访客地图。配置后地图放在左侧个人资料下方，移动端随个人资料进入正常文档流。服务被网络或广告拦截器屏蔽时可能不可见。记录从启用时开始，不能恢复历史访客。访问地图服务会将访问者 IP 等请求信息交给该服务。
+- `enabled`：设为 `false` 可关闭地图和第三方请求。
+- `provider: flagcounter`：当前地图服务。
+- `flagcounter_image_url`：该计数器的实时地图图片 URL，不能替换为示例计数器。
+- `flagcounter_stats_url`：https://info.flagcounter.com/DF5U ，点击地图可查看统计。
+- `clustrmaps_id`：保留备用。以后拿到 ID 且服务可用，可切换 `provider: clustrmaps`。
 
-本次网络检查未能连接 ClustrMaps，尚未获得站点 ID，因此当前地图未启用。
+地图位于左侧个人资料下方，移动端在资料区正常排列；图片加载失败时显示不可用提示和统计链接。直接加载服务图片进行计数，不缓存到本仓库，不使用懒加载，以免只记录滚动到地图的访客。
+
+统计从创建启用时开始，不能恢复历史访客；本地预览和创建过程可能贡献最初的测试访问。IP 代理、重复访问判定、浏览器缓存、广告拦截器都会影响统计，因此只是近似访问分布。免邮箱创建不提供账户管理/排除本人访问等能力；未绑定邮箱，也没有付费订阅。
+
+服务收到访客 IP、来源页面和浏览器请求信息来推断国家/地区。其隐私政策称地图图片不使用 cookies，免费计数器只累计统计，统计详情网页可能有广告。服务条款/政策：
+https://flagcounter.com/terms.html 、https://flagcounter.com/privacy.html 。
+
+原 ClustrMaps（包含 www）在本次网络下连接失败，MapMyVisitors 超时；因此暂用已获用户选择的全球国旗地图。
 
 ## 本地预览与验证
 

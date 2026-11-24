@@ -67,6 +67,21 @@
     if (updated) updated.textContent = ' (citation data temporarily unavailable)';
   }
 
+  function initVisitorMap() {
+    const map = document.querySelector('[data-visitor-map]');
+    if (!map) return;
+    const image = map.querySelector('[data-visitor-map-image]');
+    if (!image) return;
+    const error = map.querySelector('[data-visitor-map-error]');
+    function update(failed) {
+      image.hidden = failed;
+      error.hidden = !failed;
+    }
+    image.addEventListener('load', () => update(false));
+    image.addEventListener('error', () => update(true));
+    if (image.complete) update(image.naturalWidth === 0);
+  }
+
   function initPublicationTabs() {
     const browser = document.querySelector('[data-publication-tabs]');
     if (!browser) return;
@@ -174,6 +189,7 @@
     start();
   }
 
+  initVisitorMap();
   initPublicationTabs();
   initNews();
   initScholar();

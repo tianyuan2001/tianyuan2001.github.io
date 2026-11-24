@@ -1,9 +1,29 @@
-{% if site.visitor_map.clustrmaps_id != empty and site.visitor_map.clustrmaps_id %}
-<aside class="visitor-map" aria-label="Visitor locations">
+{% assign map = site.visitor_map %}
+{% assign map_provider = map.provider | default: 'clustrmaps' %}
+{% assign map_configured = false %}
+{% if map_provider == 'flagcounter' and map.flagcounter_image_url != empty and map.flagcounter_image_url and map.flagcounter_stats_url != empty and map.flagcounter_stats_url %}
+  {% assign map_configured = true %}
+{% elsif map_provider == 'clustrmaps' and map.clustrmaps_id != empty and map.clustrmaps_id %}
+  {% assign map_configured = true %}
+{% endif %}
+{% if map_configured and map.enabled != false %}
+<aside class="visitor-map" aria-label="Visitor locations" data-visitor-map>
   <h3>Visitors around the world</h3>
   <div class="visitor-map__embed">
-    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d={{ site.visitor_map.clustrmaps_id | url_encode }}&amp;cl=ffffff&amp;w=a" async></script>
+    {% if map_provider == 'flagcounter' %}
+    <a href="{{ map.flagcounter_stats_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="View visitor statistics on Flag Counter">
+      <img data-visitor-map-image src="{{ map.flagcounter_image_url | escape }}" alt="World map of visitor countries and regions — Flag Counter" decoding="async">
+    </a>
+    {% else %}
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d={{ map.clustrmaps_id | url_encode }}&amp;cl=ffffff&amp;w=a" async></script>
+    <noscript><p>Enable JavaScript to view the visitor map.</p></noscript>
+    {% endif %}
   </div>
+  <p class="visitor-map__error" data-visitor-map-error role="status" hidden>Visitor map temporarily unavailable. Please try again later.</p>
+  {% if map_provider == 'flagcounter' %}
+  <p>Visitor countries &amp; regions · <a href="{{ map.flagcounter_stats_url | escape }}" target="_blank" rel="noopener noreferrer">Flag Counter</a></p>
+  {% else %}
   <p>Approximate visitor locations · <a href="https://clustrmaps.com/" target="_blank" rel="noopener noreferrer">ClustrMaps</a></p>
+  {% endif %}
 </aside>
 {% endif %}

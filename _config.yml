@@ -16,6 +16,11 @@ scholar:
   enabled: true
   id: "w0mmwl4AAAAJ"
 visitor_map:
+  enabled: true
+  provider: "flagcounter"
+  # Use the URLs generated for your own Flag Counter; never a sample counter.
+  flagcounter_image_url: "https://s05.flagcounter.com/map/DF5U/size_s/txt_526170/border_FFFFFF/pageviews_0/viewers_3/flags_0/"
+  flagcounter_stats_url: "https://info.flagcounter.com/DF5U"
   # Paste the d= value from your ClustrMaps map_v2.js embed code.
   clustrmaps_id: ""
 

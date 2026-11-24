@@ -53,7 +53,12 @@ html { scroll-behavior: smooth; }
   border-top: 1px solid #e3e8ed;
   h3 { font-size: .8rem; margin-bottom: .75rem; }
   p { font-size: .65rem; color: #657582; }
-  &__embed { min-height: 90px; }
+  &__embed {
+    min-height: 90px;
+    a { display: block; }
+    img { display: block; height: auto; border-radius: 4px; }
+  }
+  &__error { padding: .75rem; background: #f5f8fa; border-radius: 4px; }
   iframe, canvas, img { max-width: 100%; }
 }
 @include breakpoint($large) {
