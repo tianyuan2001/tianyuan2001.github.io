@@ -1,0 +1,131 @@
+{
+  "name": "Tianyuan Zhang（张天缘）",
+  "citedby": 803,
+  "updated": "2026-11-24T10:45:08.025990+00:00",
+  "publications": {
+    "w0mmwl4AAAAJ:roLk4NBRz8UC": {
+      "num_citations": 186,
+      "title": "Jailbreak Vision Language Models via Bi-modal Adversarial Prompt"
+    },
+    "w0mmwl4AAAAJ:MXK_kJrjxJIC": {
+      "num_citations": 114,
+      "title": "Compromising LLM-driven Embodied Agents with Contextual Backdoor Attacks"
+    },
+    "w0mmwl4AAAAJ:3fE2CSJIrl8C": {
+      "num_citations": 64,
+      "title": "Manipulating Multimodal Agents via Cross-Modal Prompt Injection"
+    },
+    "w0mmwl4AAAAJ:0EnyYjriUFMC": {
+      "num_citations": 63,
+      "title": "Visual Adversarial Attack on Vision-language Models for Autonomous Driving"
+    },
+    "w0mmwl4AAAAJ:2osOgNQ5qMEC": {
+      "num_citations": 52,
+      "title": "Cloud Workload Turning Points Prediction via Cloud Feature-enhanced Deep Learning"
+    },
+    "w0mmwl4AAAAJ:WF5omc3nYNoC": {
+      "num_citations": 40,
+      "title": "Towards Robust Physical-world Backdoor Attacks on Lane Detection"
+    },
+    "w0mmwl4AAAAJ:d1gkVwhDpl0C": {
+      "num_citations": 40,
+      "title": "RobustMQ: Benchmarking Robustness of Quantized Models"
+    },
+    "w0mmwl4AAAAJ:8k81kl-MbHgC": {
+      "num_citations": 35,
+      "title": "Black-box Adversarial Attack on Vision-language Models for Autonomous Driving"
+    },
+    "w0mmwl4AAAAJ:ufrVoPGSRksC": {
+      "num_citations": 31,
+      "title": "LanEvil: Benchmarking the Robustness of Lane Detection to Environmental Illusions"
+    },
+    "w0mmwl4AAAAJ:UebtZRa9Y70C": {
+      "num_citations": 24,
+      "title": "RobustE2E: Exploring the Robustness of End-to-end Autonomous driving"
+    },
+    "w0mmwl4AAAAJ:9yKSN-GCB0IC": {
+      "num_citations": 22,
+      "title": "Exploring the Physical-world Adversarial Robustness of Vehicle Detection"
+    },
+    "w0mmwl4AAAAJ:eQOLeE2rZwMC": {
+      "num_citations": 20,
+      "title": "Attack End-to-end Autonomous Driving Through Module-wise Noise"
+    },
+    "w0mmwl4AAAAJ:QIV2ME_5wuYC": {
+      "num_citations": 16,
+      "title": "Human-aligned robust multimodal cognitive state recognition from ocular and behavioral signals in autonomous driving"
+    },
+    "w0mmwl4AAAAJ:YOwf2qJgpHMC": {
+      "num_citations": 15,
+      "title": "Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles"
+    },
+    "w0mmwl4AAAAJ:KlAtU1dfN6UC": {
+      "num_citations": 14,
+      "title": "Pushing the limits of safety: A technical report on the atlas challenge 2025"
+    },
+    "w0mmwl4AAAAJ:YsMSGLbcyi4C": {
+      "num_citations": 14,
+      "title": "Enhancing the Transferability of Adversarial Attacks with Stealth Preservation"
+    },
+    "w0mmwl4AAAAJ:Zph67rFs4hoC": {
+      "num_citations": 13,
+      "title": "Bench2ADVLM: A Closed-loop Benchmark for Vision-language Models in Autonomous Driving"
+    },
+    "w0mmwl4AAAAJ:5nxA0vEk-isC": {
+      "num_citations": 13,
+      "title": "Bdefects4NN: A Backdoor Defect Database for Controlled Localization Studies in Neural Networks"
+    },
+    "w0mmwl4AAAAJ:u-x6o8ySG0sC": {
+      "num_citations": 6,
+      "title": "Benchmarking the Robustness of Quantized Models"
+    },
+    "w0mmwl4AAAAJ:M3ejUd6NZC8C": {
+      "num_citations": 5,
+      "title": "Evolving Deception: When Agents Evolve, Deception Wins"
+    },
+    "w0mmwl4AAAAJ:_kc_bZDykSQC": {
+      "num_citations": 4,
+      "title": "Towards secure and robust vision-language models in autonomous driving: A survey for perception-oriented and decision-oriented attacks"
+    },
+    "w0mmwl4AAAAJ:9ZlFYXVOiuMC": {
+      "num_citations": 3,
+      "title": "SafeFlow: Semantic Information-Flow Control for Blocking Malicious Propagation in Multi-Agent Systems"
+    },
+    "w0mmwl4AAAAJ:mVmsd5A6BfQC": {
+      "num_citations": 3,
+      "title": "SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving"
+    },
+    "w0mmwl4AAAAJ:ULOm3_A8WrAC": {
+      "num_citations": 3,
+      "title": "MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving"
+    },
+    "w0mmwl4AAAAJ:4DMP91E08xMC": {
+      "num_citations": 2,
+      "title": "Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective"
+    },
+    "w0mmwl4AAAAJ:aqlVkmm33-oC": {
+      "num_citations": 1,
+      "title": "GuardAD: Safeguarding Autonomous Driving MLLMs via Markovian Safety Logic"
+    },
+    "w0mmwl4AAAAJ:iH-uZ7U-co4C": {
+      "num_citations": 0,
+      "title": "ProDream: Proactive threat dreaming with a latent world model for robust autonomous driving"
+    },
+    "w0mmwl4AAAAJ:Wp0gIr-vW9MC": {
+      "num_citations": 0,
+      "title": "Technical Report on the CVPR 2026@ AdvML Workshop Challenge"
+    },
+    "w0mmwl4AAAAJ:qxL8FJ1GzNcC": {
+      "num_citations": 0,
+      "title": "Multimodal Object Detection by Adaptive Channel Enhancement and Attention Fusion"
+    },
+    "w0mmwl4AAAAJ:u5HHmVD_uO8C": {
+      "num_citations": 0,
+      "title": "Benchmarking the Physical-world Adversarial Robustness of Vehicle Detection"
+    },
+    "w0mmwl4AAAAJ:dhFuZR0502QC": {
+      "num_citations": 0,
+      "title": "LATENTGUARD: Safeguarding Autonomous Driving VLMs via Latent World Logic Repair"
+    }
+  }
+}
