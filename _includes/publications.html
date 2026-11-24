@@ -1,0 +1,9 @@
+<ul class="publications">
+  {% for paper in site.data.publications %}
+  <li>
+    <p><strong>{{ paper.title | escape }}</strong>{% if paper.url %} <a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">[paper]</a>{% endif %}{% if site.scholar.enabled %} <span class="paper-citations" data-scholar-paper="{{ paper.scholar_id | escape }}" data-scholar-title="{{ paper.title | escape }}" title="Citation count unavailable">· Citations: —</span>{% endif %}</p>
+    {{ paper.authors | markdownify }}
+    <p>{{ paper.venue | escape }}{% if paper.award %} <strong class="highlight">{{ paper.award | escape }}</strong>{% endif %}</p>
+  </li>
+  {% endfor %}
+</ul>

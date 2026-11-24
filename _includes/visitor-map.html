@@ -1,0 +1,9 @@
+{% if site.visitor_map.clustrmaps_id != empty and site.visitor_map.clustrmaps_id %}
+<aside class="visitor-map" aria-label="Visitor locations">
+  <h3>Visitors around the world</h3>
+  <div class="visitor-map__embed">
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d={{ site.visitor_map.clustrmaps_id | url_encode }}&amp;cl=ffffff&amp;w=a" async></script>
+  </div>
+  <p>Approximate visitor locations · <a href="https://clustrmaps.com/" target="_blank" rel="noopener noreferrer">ClustrMaps</a></p>
+</aside>
+{% endif %}

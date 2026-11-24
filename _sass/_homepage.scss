@@ -1,0 +1,95 @@
+// Page-specific behavior; the base theme remains unchanged.
+html { scroll-behavior: smooth; }
+[hidden] { display: none !important; }
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  overflow-x: auto;
+  padding: .5rem 0;
+  white-space: nowrap;
+  a { color: inherit; }
+  .site-name { font-weight: 700; margin-right: .5rem; }
+}
+.profile-links {
+  margin: .75rem 0 0;
+  padding: 0;
+  list-style: none;
+  a { color: inherit; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+}
+.profile_box { align-items: flex-start; }
+.author__avatar img { height: auto; }
+.highlight { color: #bd2226; }
+.news-panel { border: 1px solid #e3e8ed; border-radius: 8px; overflow: hidden; }
+.news-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: .6rem .9rem;
+  background: #f5f8fa;
+  font-size: .8rem;
+  color: #526170;
+  button { cursor: pointer; background: white; border: 1px solid #b5c4d0; border-radius: 4px; padding: .3rem .55rem; color: #334b60; }
+}
+.news-feed {
+  max-height: 19rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: .5rem 1rem .5rem .25rem;
+  li { margin-bottom: .9rem; line-height: 1.65; }
+  &:focus-visible { outline: 2px solid #3285b7; outline-offset: -3px; }
+}
+.publications > li { margin-bottom: 1.5rem; }
+.scholar-stats {
+  margin: 0 0 1.25rem;
+  color: #526170;
+  font-size: .8rem;
+  small { display: block; margin-top: .3rem; font-size: .65rem; }
+}
+.citation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .4rem .6rem;
+  border: 1px solid #d4e4ef;
+  border-radius: 5px;
+  background: #f0f7fb;
+  color: #285773;
+  text-decoration: none;
+}
+.paper-citations { font-size: .8em; font-weight: 400; color: #526170; white-space: nowrap; }
+.visitor-map {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e3e8ed;
+  h3 { font-size: .8rem; margin-bottom: .75rem; }
+  p { font-size: .65rem; color: #657582; }
+  &__embed { min-height: 90px; }
+  iframe, canvas, img { max-width: 100%; }
+}
+@include breakpoint($large) {
+  .sidebar { position: sticky; top: 5rem; max-height: calc(100vh - 6rem); overflow-y: auto; scrollbar-width: thin; }
+}
+@media (max-width: 600px) {
+  .site-nav { gap: 1rem; font-size: .8rem; }
+  .site-name { display: none; }
+  .visitor-map { max-width: 260px; }
+  .news-feed { max-height: 21rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+@media print {
+  .news-feed { max-height: none; overflow: visible; }
+  .news-toolbar button, .visitor-map { display: none; }
+  .sidebar { position: static; max-height: none; overflow: visible; }
+}
+
+// Keep section titles below the sticky navigation after anchor navigation.
+.page__content h1[id], .page__content .anchor[id] { scroll-margin-top: 5rem; }
+.page__content #about-me { margin-top: 0; }
+.page__content #about-me::before { display: none; }

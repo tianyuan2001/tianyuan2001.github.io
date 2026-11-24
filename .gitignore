@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+__pycache__/
+*.pyc
+google_scholar_crawler/results/
+.sass-cache/

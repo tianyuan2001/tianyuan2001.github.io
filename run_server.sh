@@ -1,1 +1,3 @@
-bundle exec jekyll liveserve
+#!/bin/sh
+set -eu
+bundle exec jekyll serve "$@"

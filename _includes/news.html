@@ -1,0 +1,13 @@
+<div class="news-panel" data-news>
+  <div class="news-toolbar">
+    <span>Latest updates</span>
+    <button type="button" data-news-toggle aria-controls="news-feed" hidden>Pause scrolling</button>
+  </div>
+  <div class="news-feed" id="news-feed" tabindex="0" role="region" aria-label="News updates, scroll to read more">
+    <ul>
+      {% for item in site.data.news %}
+      <li><strong class="{% if item.featured %}highlight{% endif %}">[{{ item.label | escape }}]</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

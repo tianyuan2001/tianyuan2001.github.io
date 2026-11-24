@@ -1,29 +1,61 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * *'
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: false
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: google_scholar_crawler/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r google_scholar_crawler/requirements.txt
+      - name: Fetch citations
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          OUTPUT_DIR: ${{ runner.temp }}/scholar-results
+        run: python google_scholar_crawler/main.py
+      - name: Publish successful results
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/scholar-results
+          STATS_DIR: ${{ runner.temp }}/scholar-branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin google-scholar-stats; then
+            git fetch origin google-scholar-stats
+            git worktree add --detach "$STATS_DIR" FETCH_HEAD
+          else
+            git worktree add --detach "$STATS_DIR" HEAD
+            git -C "$STATS_DIR" checkout --orphan google-scholar-stats
+            git -C "$STATS_DIR" rm -rf .
+          fi
+          cp "$OUTPUT_DIR"/*.json "$STATS_DIR/"
+          cd "$STATS_DIR"
+          git add gs_data.json gs_data_shieldsio.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Scholar citation data'
+            git push origin HEAD:google-scholar-stats
+          fi
+      - name: Explain failed update
+        if: failure()
+        run: |
+          echo 'Citation update failed. Previous published data was preserved. Check Fetch citations for Scholar blocking or an invalid profile, and Publish successful results for repository write permissions.' >> "$GITHUB_STEP_SUMMARY"
