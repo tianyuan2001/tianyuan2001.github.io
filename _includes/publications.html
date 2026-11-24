@@ -1,9 +1,13 @@
-<ul class="publications">
-  {% for paper in site.data.publications %}
-  <li>
-    <p><strong>{{ paper.title | escape }}</strong>{% if paper.url %} <a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">[paper]</a>{% endif %}{% if site.scholar.enabled %} <span class="paper-citations show_paper_citations" data="{{ paper.scholar_id | escape }}" data-scholar-title="{{ paper.title | escape }}" title="Citation count unavailable">· Citations: —</span>{% endif %}</p>
-    {{ paper.authors | markdownify }}
-    <p>{{ paper.venue | escape }}{% if paper.award %} <strong class="highlight">{{ paper.award | escape }}</strong>{% endif %}</p>
-  </li>
-  {% endfor %}
-</ul>
+{% assign selected_papers = site.data.publications | where_exp: "paper", "paper.selected_order != nil" | sort: "selected_order" %}
+<div class="publication-browser" data-publication-tabs>
+  <div class="publication-tabs" role="tablist" aria-label="Publication lists" hidden>
+    <button type="button" role="tab" id="tab-selected" aria-controls="publications-selected" aria-selected="true" tabindex="0">Selected Publications <span class="publication-count">{{ selected_papers.size }}</span></button>
+    <button type="button" role="tab" id="tab-full" aria-controls="publications-full" aria-selected="false" tabindex="-1">Full Publications <span class="publication-count">{{ site.data.publications.size }}</span></button>
+  </div>
+  <div id="publications-selected" role="tabpanel" aria-labelledby="tab-selected" tabindex="0" hidden>
+    {% include publication-list.html papers=selected_papers %}
+  </div>
+  <div id="publications-full" role="tabpanel" aria-labelledby="tab-full" tabindex="0">
+    {% include publication-list.html papers=site.data.publications %}
+  </div>
+</div>

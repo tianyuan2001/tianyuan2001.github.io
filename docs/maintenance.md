@@ -87,3 +87,13 @@ Python 测试需要安装爬虫 requirements 中的 PyYAML。News 默认自动�
 `data` 填写 Scholar 论文详情 URL 中 `citation_for_view=` 后的完整值，不能使用他人的示例 ID。数据文件中的论文可填写 `scholar_id`，模板会生成相同的 class/data 标记；没有 ID 时才尝试唯一标题匹配。也兼容已有的 `data-scholar-paper` 写法。
 
 总引用数支持 `id="total_cit"`，默认通过 `scholar-stats.html` 在介绍文字后输出。逐篇引用加载不依赖总引用组件，删除总引用句子也不会让逐篇引用失效。
+
+## Selected / Full Publications
+
+Publications 默认显示 Selected Publications，Full Publications 展示全部论文。两个列表由同一个 `_includes/publication-list.html` 模板和 `_data/publications.yml` 数据生成，引用数会同时更新两处。
+
+为精选论文添加正整数 `selected_order`，数字决定 Selected 中的顺序；移除该字段即可取消精选，不影响 Full 中的位置。当前顺序为 TPAMI、LanEvil、Human-aligned PR、MIR、LatentGuard（IJCAI Workshop）和 MetAdv（MM Demo）。
+
+支持鼠标点击、左右方向键及 Home/End 切换。JavaScript 不可用时显示完整列表；打印时也显示完整列表，避免重复打印精选论文。
+
+已验证 Jekyll 构建、6 篇精选的内容与顺序、27 篇完整列表、桌面/手机切换、键盘焦点与手机无横向溢出。

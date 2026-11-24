@@ -79,3 +79,46 @@ html { scroll-behavior: smooth; }
 .page__content h1[id], .page__content .anchor[id] { scroll-margin-top: 5rem; }
 .page__content #about-me { margin-top: 0; }
 .page__content #about-me::before { display: none; }
+
+
+.publication-tabs {
+  display: flex;
+  gap: .4rem;
+  margin: .25rem 0 1.5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #e3e8ed;
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: .65rem .9rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: transparent;
+    color: #526170;
+    font: inherit;
+    font-size: .85rem;
+    cursor: pointer;
+    &:hover { background: #f5f8fa; color: #285773; }
+    &[aria-selected="true"] { background: #edf5fa; border-color: #d4e4ef; color: #235b7b; font-weight: 600; }
+    &:focus-visible { outline: 2px solid #3285b7; outline-offset: 2px; }
+  }
+}
+.publication-count {
+  padding: .05rem .4rem;
+  border-radius: 10px;
+  background: rgba(40, 87, 115, .08);
+  font-size: .75em;
+}
+.publication-browser [role="tabpanel"]:focus-visible { outline: 2px solid #3285b7; outline-offset: 4px; }
+@media (max-width: 600px) {
+  .publication-tabs {
+    gap: .25rem;
+    button { flex: 1; padding: .6rem .3rem; gap: .3rem; font-size: .75rem; }
+  }
+}
+@media print {
+  .publication-tabs, #publications-selected { display: none !important; }
+  #publications-full[hidden] { display: block !important; }
+}

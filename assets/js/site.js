@@ -67,6 +67,38 @@
     if (updated) updated.textContent = ' (citation data temporarily unavailable)';
   }
 
+  function initPublicationTabs() {
+    const browser = document.querySelector('[data-publication-tabs]');
+    if (!browser) return;
+    const tablist = browser.querySelector('[role="tablist"]');
+    const tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+    const panels = Array.from(browser.querySelectorAll('[role="tabpanel"]'));
+    function activate(tab, focus = false) {
+      tabs.forEach(item => {
+        const selected = item === tab;
+        item.setAttribute('aria-selected', String(selected));
+        item.tabIndex = selected ? 0 : -1;
+      });
+      panels.forEach(panel => { panel.hidden = panel.id !== tab.getAttribute('aria-controls'); });
+      if (focus) tab.focus();
+    }
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activate(tab));
+      tab.addEventListener('keydown', event => {
+        let next;
+        if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+        else if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+        else if (event.key === 'Home') next = 0;
+        else if (event.key === 'End') next = tabs.length - 1;
+        else return;
+        event.preventDefault();
+        activate(tabs[next], true);
+      });
+    });
+    activate(tabs[0]);
+    tablist.hidden = false;
+  }
+
   function initNews() {
     const panel = document.querySelector('[data-news]');
     if (!panel) return;
@@ -142,6 +174,7 @@
     start();
   }
 
+  initPublicationTabs();
   initNews();
   initScholar();
 })();

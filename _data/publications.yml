@@ -5,10 +5,12 @@
   authors: "Qiang Fu, Jiangfan Liu, Shaofeng Chen, Zexuan Cui, **Tianyuan Zhang**, Zonglei Jing, Yaoyuan Zhang, Miao Wang, Aishan Liu, Jiakai Wang, Yuqing Ma, Xianglong Liu"
   venue: "Pattern Recognition (PR), 2026."
 - title: "Human-aligned robust multimodal cognitive state recognition from ocular and behavioral signals in autonomous driving"
+  selected_order: 3
   authors: "**Tianyuan Zhang**, Lu Wang, Jiaqi Kang, Jiangfan Liu, Xinwei Zhang, Yuwei Chen, Mingchuan Zhang, Jiakai Wang, Aishan Liu✉︎, Xianglong Liu"
   venue: "Pattern Recognition (PR), 2026."
   url: "https://www.sciencedirect.com/science/article/pii/S0031320326016523"
 - title: "LatentGuard: Safeguarding Autonomous Driving VLMs via Latent World Logic Repair"
+  selected_order: 5
   authors: "**Tianyuan Zhang**, Maoran Ye, Yang Qu, Jiangfan Liu, Zonglei Jing, Taichuan Li, Aishan Liu✉︎, Jiakai Wang, Yuqing Ma, Xianglong Liu"
   venue: "International Joint Conference on Artificial Intelligence (IJCAI) DDL2.0, 2026."
   url: "https://ai-safety-workshop-ijcai2026.github.io/pdf/LATENTGUARD_Safeguarding_Autonomous_Driving_VLMs_via_Latent_World_Logic_Repair.pdf"
@@ -23,10 +25,12 @@
   authors: "Jiangfan Liu, Zexuan Cui, **Tianyuan Zhang**, Zonglei Jing, Zonghao Ying, Yaoyuan Zhang, Jiakai Wang, Xiaoqi Jiang, Aishan Liu✉︎, Xianglong Liu"
   venue: "ACM Multimedia (ACM MM), 2026."
 - title: "Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective"
+  selected_order: 1
   authors: "**Tianyuan Zhang**, Xianglong Liu✉︎, Aishan Liu, Lu Wang, Yitong Zhang, Peng Yue, Mingchuan Zhang, Siyuan Liang, Dacheng Tao"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2026."
   url: "https://ieeexplore.ieee.org/document/11595247"
 - title: "Visual Adversarial Attack on Vision-language Models for Autonomous Driving"
+  selected_order: 4
   authors: "**Tianyuan Zhang**, Lu Wang, Xinwei Zhang, Yitong Zhang, Boyi Jia, Siyuan Liang, Shengshan Hu, Qiang Fu, Aishan Liu✉︎, Xianglong Liu"
   venue: "Machine Intelligence Research (MIR), 2026."
   url: "https://link.springer.com/article/10.1007/s11633-026-1667-4"
@@ -39,6 +43,7 @@
   venue: "Chinese Journal of Electronics (CJE), 2025."
   url: "https://cje.ejournal.org.cn/article/doi/10.23919/cje.2025.00.095"
 - title: "MetAdv: A Unified and Interactive Adversarial Testing Platform for Autonomous Driving"
+  selected_order: 6
   authors: "Aishan Liu, Jiakai Wang, **Tianyuan Zhang**, Hainan Li, Jiangfan Liu, Siyuan Liang, Yilong Ren, Xianglong Liu✉︎, Dacheng Tao"
   venue: "ACM Multimedia (ACM MM), 2025."
   url: "https://arxiv.org/pdf/2508.06534?"
@@ -68,6 +73,7 @@
   venue: "Electronics, 2024."
   url: "https://www.mdpi.com/2079-9292/13/16/3299"
 - title: "LanEvil: Benchmarking the Robustness of Lane Detection to Environmental Illusions"
+  selected_order: 2
   authors: "**Tianyuan Zhang**, Lu Wang, Hainan Li, Yisong Xiao, Siyuan Liang, Aishan Liu✉︎, Xianglong Liu, Dacheng Tao"
   venue: "ACM Multimedia (ACM MM), 2024."
   url: "https://dl.acm.org/doi/abs/10.1145/3664647.3680761"
