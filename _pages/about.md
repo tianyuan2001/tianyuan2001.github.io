@@ -25,9 +25,14 @@ My research interest includes autonomous driving safety and adversarial attack.
 
 # 🎖 Honors and Awards
 {: #honors-and-awards}
-- **\[2025.11\]** &nbsp;I received the **Most Popular Demo** award in ACM MM 2025. 
-- **\[2023.12\]** &nbsp;I received the **Outstanding Research Project of Shen Yuan Honors College, BUAA**. 
-- **\[2023.06\]** &nbsp;I was selected as **Excellent Graduate of Beijing**.
+- **\[2026.11\]** &nbsp;Shen Yuan Medal (top 0.1%), the highest student honor of BUAA.
+- **\[2026.10\]** &nbsp;CAST Young Science and Technology Talent Cultivation Program (Doctoral Student Special Plan).
+- **\[2026.10\]** &nbsp;China National Scholarship.
+- **\[2026.08\]** &nbsp;Best Student Paper Award, IJCAI 2026 DDL2.0 Workshop. 
+- **\[2025.11\]** &nbsp;Jiuhao Scholarship Special Prize (only 3 PhDs university-wide).
+- **\[2025.11\]** &nbsp;Most Popular Demo Award, ACM MM 2025. 
+- **\[2023.12\]** &nbsp;Outstanding Research Project of Shen Yuan Honors College, BUAA. 
+- **\[2023.06\]** &nbsp;Excellent Graduate of Beijing.
 
 # 🔥 News
 {: #news}
