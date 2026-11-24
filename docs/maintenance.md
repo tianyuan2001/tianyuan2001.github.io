@@ -97,3 +97,13 @@ Publications 默认显示 Selected Publications，Full Publications 展示全部
 支持鼠标点击、左右方向键及 Home/End 切换。JavaScript 不可用时显示完整列表；打印时也显示完整列表，避免重复打印精选论文。
 
 已验证 Jekyll 构建、6 篇精选的内容与顺序、27 篇完整列表、桌面/手机切换、键盘焦点与手机无横向溢出。
+
+## 抓取启动错误：bibtexparser.bibdatabase
+
+2026-11-24 的运行日志显示 `ModuleNotFoundError: No module named 'bibtexparser.bibdatabase'`，发生在 `from scholarly import scholarly`，尚未请求 Scholar，也没有进入发布步骤。`scholarly==1.7.11` 的包元数据未限制 `bibtexparser` 版本，而代码使用 1.x 的 `BibDatabase` API。
+
+已固定 `bibtexparser==1.4.3`，新增 `Verify crawler dependencies` 步骤（`pip check`、真实导入、初始化），并升级 checkout/setup-python 至 Node 24 版本。官方 1.4.3 源包 SHA-256 核验、缺失接口导入、BibTeX 解析、本地 Python 测试及工作流 YAML 检查通过。本机 pip 受 TLS 连接问题影响，完整依赖环境的初始化检查需由 Actions 执行。
+
+推送修复后，从最新 main 启动新的 Run workflow。对旧失败记录执行 Re-run 会继续使用旧提交。数据分支由首次成功抓取自动创建，无需手动新建。
+
+旧排队任务的取消失败只有通用页面提示，尚未获得更详细的 GitHub 错误原因；它与此次可确定的 Python 导入失败应分别处理。
